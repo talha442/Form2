@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LAYOUT 2</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="createaccount">
+        <h1>Create Account</h1>
+    </div>
+    <div class="main">
+        <form action="https://www.example.com" method="get">
+           <div id="name">
+                <h2 class="name">Name</h2>
+                <input class="firstname" type="text" name="first_name" required="required"><br>
+                <label class="firstlabel">First Name</label>
+                <input class="lastname" type="text" name="last_name" required="required"><br>
+                <label class="lastlabel">Last Name</label>
+           </div>
+
+           <h2 class="name">Email</h2>
+           <input type="email" name="email" class="email" required="required">
+           
+           <div id="name">
+           <h2 class="name">Password</h2>
+           <input type="password" name="pass_word" class="password" required="required"><br>
+           <label class="passwordlabel">Type Password</label>
+           <input type="password" name="confirm_password" class="confirmpassword" required="required"><br>
+           <label class="confirmpasswordlabel">Confirm Password</label>
+           </div>
+
+           <h2 class="name">Birthday</h2>
+           <input type="text" name="birthday" class="birthday">
+
+           
+           
+           <h2 class="name">Source Of Income</h2>
+           <select name="option" class="sourceofincome">
+               <option disabled="disabled" selected="selected">Choose Option</option>
+               <option value="employed">Employed</option>
+               <option value="unemployed">Unemployed</option>
+               <option value="student">Student</option>
+            </select>
+            
+            <h2 id="gen">Gender</h2>
+            <label class="radio">
+            <input type="radio" name="gender" class="r1">
+            <span class="checkmark"></span> Male
+           </label>
+           <label class="radio">
+             <input type="radio" name="gender" class="r2">
+             <span class="checkmark"></span> Female
+            </label>
+           <button type="submit">Create</button>
+        </form>
+    </div>
+</body>
+</html>
